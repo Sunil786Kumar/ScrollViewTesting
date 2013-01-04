@@ -87,7 +87,7 @@
 }
 -(void)setUpLandscapeView
 {
-    NSLog(@"Landscape called");
+   
     FirstLandscapeContainer *firstLandscape = [[FirstLandscapeContainer alloc]initWithNibName:@"FirstLandscapeContainer" bundle:nil];
     firstLandscape.view.frame = CGRectMake(landscapeWidth, firstLandscape.view.frame.origin.y, firstLandscape.view.frame.size.width, firstLandscape.view.frame.size.height);
     NSLog(@"Lansscape width is %i",landscapeWidth);
