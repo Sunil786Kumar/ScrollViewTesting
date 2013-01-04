@@ -8,6 +8,17 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UIScrollViewAccessibilityDelegate>
+{
+    int widthForTwoViewsPortrait;
+    int widthForTwoViewsLandscape;
+    int firstPageLandscapeViewOriginX;
+    int firstLoadFlag;
+    
+    int portraitWidth;
+    int landscapeWidth;
 
+}
+
+@property (weak, nonatomic) IBOutlet UIScrollView *storyHolderScrollView;
 @end

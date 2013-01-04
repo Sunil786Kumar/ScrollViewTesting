@@ -23,6 +23,14 @@
 		4313A8D9167B2B2B005F652D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4313A8B4167B2B2B005F652D /* Foundation.framework */; };
 		4313A8E1167B2B2B005F652D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4313A8DF167B2B2B005F652D /* InfoPlist.strings */; };
 		4313A8E4167B2B2B005F652D /* ScrollViewTestingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4313A8E3167B2B2B005F652D /* ScrollViewTestingTests.m */; };
+		4313A8F2167B2BBE005F652D /* FirstPortraitContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4313A8F0167B2BBE005F652D /* FirstPortraitContainer.m */; };
+		4313A8F3167B2BBE005F652D /* FirstPortraitContainer.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4313A8F1167B2BBE005F652D /* FirstPortraitContainer.xib */; };
+		4313A8F7167B2C07005F652D /* SecondPortraitContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4313A8F5167B2C07005F652D /* SecondPortraitContainer.m */; };
+		4313A8F8167B2C07005F652D /* SecondPortraitContainer.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4313A8F6167B2C07005F652D /* SecondPortraitContainer.xib */; };
+		4313A8FC167B2C3C005F652D /* FirstLandscapeContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4313A8FA167B2C3C005F652D /* FirstLandscapeContainer.m */; };
+		4313A8FD167B2C3C005F652D /* FirstLandscapeContainer.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4313A8FB167B2C3C005F652D /* FirstLandscapeContainer.xib */; };
+		4313A901167B2C93005F652D /* SecondLandscapeContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4313A8FF167B2C93005F652D /* SecondLandscapeContainer.m */; };
+		4313A902167B2C93005F652D /* SecondLandscapeContainer.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4313A900167B2C93005F652D /* SecondLandscapeContainer.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +66,18 @@
 		4313A8E0167B2B2B005F652D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4313A8E2167B2B2B005F652D /* ScrollViewTestingTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScrollViewTestingTests.h; sourceTree = "<group>"; };
 		4313A8E3167B2B2B005F652D /* ScrollViewTestingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollViewTestingTests.m; sourceTree = "<group>"; };
+		4313A8EF167B2BBE005F652D /* FirstPortraitContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstPortraitContainer.h; sourceTree = "<group>"; };
+		4313A8F0167B2BBE005F652D /* FirstPortraitContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstPortraitContainer.m; sourceTree = "<group>"; };
+		4313A8F1167B2BBE005F652D /* FirstPortraitContainer.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstPortraitContainer.xib; sourceTree = "<group>"; };
+		4313A8F4167B2C07005F652D /* SecondPortraitContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondPortraitContainer.h; sourceTree = "<group>"; };
+		4313A8F5167B2C07005F652D /* SecondPortraitContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondPortraitContainer.m; sourceTree = "<group>"; };
+		4313A8F6167B2C07005F652D /* SecondPortraitContainer.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondPortraitContainer.xib; sourceTree = "<group>"; };
+		4313A8F9167B2C3C005F652D /* FirstLandscapeContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstLandscapeContainer.h; sourceTree = "<group>"; };
+		4313A8FA167B2C3C005F652D /* FirstLandscapeContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstLandscapeContainer.m; sourceTree = "<group>"; };
+		4313A8FB167B2C3C005F652D /* FirstLandscapeContainer.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstLandscapeContainer.xib; sourceTree = "<group>"; };
+		4313A8FE167B2C93005F652D /* SecondLandscapeContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondLandscapeContainer.h; sourceTree = "<group>"; };
+		4313A8FF167B2C93005F652D /* SecondLandscapeContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondLandscapeContainer.m; sourceTree = "<group>"; };
+		4313A900167B2C93005F652D /* SecondLandscapeContainer.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondLandscapeContainer.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +107,8 @@
 		4313A8A3167B2B2B005F652D = {
 			isa = PBXGroup;
 			children = (
+				4313A8EE167B2B9C005F652D /* Portrait */,
+				4313A8ED167B2B92005F652D /* Landscape */,
 				4313A8B8167B2B2B005F652D /* ScrollViewTesting */,
 				4313A8DC167B2B2B005F652D /* ScrollViewTestingTests */,
 				4313A8B1167B2B2B005F652D /* Frameworks */,
@@ -158,6 +180,32 @@
 				4313A8DF167B2B2B005F652D /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4313A8ED167B2B92005F652D /* Landscape */ = {
+			isa = PBXGroup;
+			children = (
+				4313A8F9167B2C3C005F652D /* FirstLandscapeContainer.h */,
+				4313A8FA167B2C3C005F652D /* FirstLandscapeContainer.m */,
+				4313A8FB167B2C3C005F652D /* FirstLandscapeContainer.xib */,
+				4313A8FE167B2C93005F652D /* SecondLandscapeContainer.h */,
+				4313A8FF167B2C93005F652D /* SecondLandscapeContainer.m */,
+				4313A900167B2C93005F652D /* SecondLandscapeContainer.xib */,
+			);
+			name = Landscape;
+			sourceTree = "<group>";
+		};
+		4313A8EE167B2B9C005F652D /* Portrait */ = {
+			isa = PBXGroup;
+			children = (
+				4313A8EF167B2BBE005F652D /* FirstPortraitContainer.h */,
+				4313A8F0167B2BBE005F652D /* FirstPortraitContainer.m */,
+				4313A8F1167B2BBE005F652D /* FirstPortraitContainer.xib */,
+				4313A8F4167B2C07005F652D /* SecondPortraitContainer.h */,
+				4313A8F5167B2C07005F652D /* SecondPortraitContainer.m */,
+				4313A8F6167B2C07005F652D /* SecondPortraitContainer.xib */,
+			);
+			name = Portrait;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,6 +284,10 @@
 				4313A8C7167B2B2B005F652D /* Default@2x.png in Resources */,
 				4313A8C9167B2B2B005F652D /* Default-568h@2x.png in Resources */,
 				4313A8CC167B2B2B005F652D /* MainStoryboard.storyboard in Resources */,
+				4313A8F3167B2BBE005F652D /* FirstPortraitContainer.xib in Resources */,
+				4313A8F8167B2C07005F652D /* SecondPortraitContainer.xib in Resources */,
+				4313A8FD167B2C3C005F652D /* FirstLandscapeContainer.xib in Resources */,
+				4313A902167B2C93005F652D /* SecondLandscapeContainer.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +325,10 @@
 				4313A8BF167B2B2B005F652D /* main.m in Sources */,
 				4313A8C3167B2B2B005F652D /* AppDelegate.m in Sources */,
 				4313A8CF167B2B2B005F652D /* ViewController.m in Sources */,
+				4313A8F2167B2BBE005F652D /* FirstPortraitContainer.m in Sources */,
+				4313A8F7167B2C07005F652D /* SecondPortraitContainer.m in Sources */,
+				4313A8FC167B2C3C005F652D /* FirstLandscapeContainer.m in Sources */,
+				4313A901167B2C93005F652D /* SecondLandscapeContainer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -447,6 +503,7 @@
 				4313A8E9167B2B2B005F652D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4313A8EA167B2B2B005F652D /* Build configuration list for PBXNativeTarget "ScrollViewTestingTests" */ = {
 			isa = XCConfigurationList;
@@ -455,6 +512,7 @@
 				4313A8EC167B2B2B005F652D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
